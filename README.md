@@ -5,6 +5,8 @@ Two python scripts included. One script (readpath_v3) works for electronically g
 
 Depending on the source of reports to be scanned, the code in each script which is used to recognize the header signifying the start of a new report needs to be modified.
 
-Both scripts require the creation of a directory on C:\ to receive the individual text files corresponding to pathology reports meeting the criteria.
+Both scripts require the creation of a directory on C:\ to receive the individual text files corresponding to pathology reports meeting the criteria. This path is hard-coded into the script and can be modified as needed.
+
+Input files are text files generated from PDFs of Pathology reports (after OCR, if necessary). Files for testing this script were generated from scanned PDFs in Adobe Acrobat Pro DC, after OCR, with File ->Export To-> Text (Accessible)
 
 New criteria can be added to the diseaseterms list at the start of each script.
